@@ -51,6 +51,10 @@ Extensive experiments on furniture-like objects from PartNet-Mobility and ACD da
 
 Official implementation of the paper "ArtiLatent: Realistic Articulated 3D Object Generation via Structured Latents".
 
+We have uploaded the code for preparing the dataset. To prepare training data, run `bash prepare.sh` from the repository root. This script renders conditional and state images, voxelizes shapes, and extracts per-voxel DINO features to build the dataset.
+
+Next, we plan to release the training code for the articulated VAE and diffusion model.
+
 Project page is [here](https://chenhonghua.github.io/MyProjects/ArtiLatent/).
 
 
